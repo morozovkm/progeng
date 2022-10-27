@@ -1,1 +1,1 @@
-print('Stanislav Pugachev')
+print('Stanislav  Pugachev')
