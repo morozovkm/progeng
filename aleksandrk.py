@@ -1,0 +1,1 @@
+print('hello from Aleksandr') #created by alkaz07 19:38
