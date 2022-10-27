@@ -1,0 +1,1 @@
+print('Stanislav Pugachev')
