@@ -1,4 +1,5 @@
 /.idea
-.tmp
-.log
-.csv
+*.tmp
+*.log
+*.csv
+**/.vs
