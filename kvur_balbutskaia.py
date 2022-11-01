@@ -7,6 +7,7 @@ while bad_data == True:
         c = int(input('Введите c: '))
         bad_data = False
         d = b*b - 4*a*c
+        print(f'Дискриминант равен {d}')
         if d > 0:
             print('уравнение имеет два корня')
             x1 = (-b - math.sqrt(d))/(2*a)
