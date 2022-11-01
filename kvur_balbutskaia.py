@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 bad_data = True
 while bad_data == True:
     try:
@@ -10,8 +10,8 @@ while bad_data == True:
         print(f'Дискриминант равен {d}')
         if d > 0:
             print('уравнение имеет два корня')
-            x1 = (-b - math.sqrt(d))/(2*a)
-            x2 = (-b + math.sqrt(d))/(2*a)
+            x1 = (-b - sqrt(d))/(2*a)
+            x2 = (-b + sqrt(d))/(2*a)
             print(x1, x2)
         elif d == 0:
             print('уравнение имеет один корень')
